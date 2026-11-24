@@ -1,3 +1,4 @@
+```text
 def bit_2_exponent(8bits):
     return bits_2_integer(8bits) # 단순 비트 정수로 바꿔주는거(10진법)
 
@@ -24,3 +25,4 @@ def decode_fp32(bit):
 
     value = 2^(bit_2_exponent(bit[1:9])-127) * (1+bit_2_mantissa(bit[9:]))
     return sign * value
+```

@@ -4,4 +4,4 @@
 
 | # | 개념 | 블로그 글 | 실행 |
 |---|---|---|---|
-| 01 | bf16 vs fp16 | (발행 후 링크) | `python experiments/01-bf16-vs-fp16/main.py` |
+| 01 | 부동소수점 비트 해석 | (발행 후 링크) | `python experiments/01-floating-point/decode_fp32.py` |
